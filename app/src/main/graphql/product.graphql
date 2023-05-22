@@ -1,0 +1,13 @@
+query Product($nodeId: ID!){
+    node(nodeId: $nodeId) {
+        ... on product {
+            id
+            image
+            name
+            nodeId
+            price
+            stock
+            user
+        }
+    }
+}

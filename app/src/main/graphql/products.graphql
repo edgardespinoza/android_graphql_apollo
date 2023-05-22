@@ -1,0 +1,14 @@
+query Products{
+    productCollection {
+        edges {
+            node {
+                id
+                image
+                name
+                nodeId
+                price
+                stock
+            }
+        }
+    }
+}
